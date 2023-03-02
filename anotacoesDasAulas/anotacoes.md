@@ -99,3 +99,12 @@ O @NgModule é definido como uma classe em que as propriedades e métodos são u
 - export: uma propriedade opcional que define os componentes, diretivas e pipes que são exportados deste módulo e disponíveis para uso em outros módulos. Nenhum componente, diretiva ou pipe é exportado neste exemplo.
 
 - Por fim, a classe AppModule é exportada e representa o módulo da aplicação Angular. Este módulo é importado no arquivo main.ts para iniciar a aplicação Angular.
+
+## O que foi feito na aula-2:
+
+1. Como o arquivo bootstrap.css pode ser adicionado ao processo de build do Angular CLI.
+2. Criação de um novo componente
+3. A importância de declarar o componente em um módulo
+4. Como passar dados para o componente através das inbound properties
+5. Criação de um módulo e boas práticas
+6. A diretiva \*ngFor

@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./photo.component.scss'],
 })
 export class PhotoComponent implements OnInit {
-  @Input() description: string = '';
+  @Input() description = '';
   @Input() url = '';
 
   constructor() {}

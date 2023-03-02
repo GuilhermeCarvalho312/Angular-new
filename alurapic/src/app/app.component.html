@@ -1,6 +1,9 @@
 <h1>{{ title }}</h1>
 
 <div>
-  <app-photo descricao="Typescript" [url]="urlImage1"></app-photo>
-  <app-photo descricao="Atom" [url]="urlImage2"></app-photo>
+  <app-photo
+    *ngFor="let photo of photos"
+    [description]="photo.description"
+    [url]="photo.url"
+  ></app-photo>
 </div>
